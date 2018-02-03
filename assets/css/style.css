@@ -45,7 +45,6 @@
     color: #fff;
     overflow: auto;
     border-bottom: 2px solid #ccc;
-    position: fixed;
     width: 100%;
   }
   #logo {
@@ -83,7 +82,7 @@
 
 /*Main*/
   #mainContainer{
-    padding-top: 130px;
+    padding-top: 10px;
   }
   .mainSection{
     background: #fff;
@@ -174,7 +173,7 @@
     font-weight: 300;
   }
 
-/*Portfolio*/
+/*Contac*/
 
   #contactForm ul {
     margin-bottom: 20px; 
@@ -209,7 +208,9 @@
   cursor: pointer;
  }
 
-  html {
+ /*Sticky Footer*/
+ 
+html {
     height: 100%;
   }
   body {
@@ -225,3 +226,15 @@
     flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     padding: 20px;
   }
+
+/*Hover*/
+
+  a :hover {
+    background: #0CB2E8; 
+  }
+  input[type=submit]:hover {
+    background: #0CB2E8;
+   }
+   nav a :hover {
+    color:#0CB2E8;
+   }
